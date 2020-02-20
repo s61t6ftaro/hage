@@ -1,3 +1,23 @@
-# hage
+># git initからpushまでの方法
 
-git initからリモート接続、pushまで
+## ローカル➡リモート
+
+対象のフォルダで`git init`する。
+※これでローカルでgitできるぜへへへ。
+
+ローカルと紐づけたフォルダにgitへぶち込みたいファイルorディレクトリなどを
+`git add`で入れていく、そんで`git commit -m "hage"`
+
+`git init`の部分以外のadd commit はいつも通り。
+
+ここからリモートにリポジトリを作る。
+※pushするの良いけどどこに送るん？ってこと
+
+つくったらURLコピーしてリモートのリポジトリとローカルをつなげる！
+`git remote add origin リポジトリURL`
+
+これではじめてリモートと繋がったから、ここにpushする
+`git push -u origin master`
+
+終わり！閉廷！解散！
+
