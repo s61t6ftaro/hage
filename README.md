@@ -5,10 +5,11 @@
 対象のフォルダで`git init`する。
 ※これでローカルでgitできるぜへへへ。
 
-ローカルと紐づけたフォルダにgitへぶち込みたいファイルorディレクトリなどを
-`git add`で入れていく、そんで`git commit -m "hage"`
+ローカルと紐づけたフォルダにgitへぶち込みたいファイルorディレクトリなどを<br>
+`git add`で入れていく<br>
+そんで`git commit -m "hage"`<br>
 
-`git init`の部分以外のadd commit はいつも通り。
+git initの部分以外のadd commit はいつも通り。
 
 ここからリモートにリポジトリを作る。
 ※pushするの良いけどどこに送るん？ってこと
