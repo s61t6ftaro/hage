@@ -15,9 +15,11 @@ git initの部分以外のadd commit はいつも通り。
 ※pushするの良いけどどこに送るん？ってこと
 
 つくったらURLコピーしてリモートのリポジトリとローカルをつなげる！
+
 `git remote add origin リポジトリURL`
 
 これではじめてリモートと繋がったから、ここにpushする
+
 `git push -u origin master`
 
 終わり！閉廷！解散！
